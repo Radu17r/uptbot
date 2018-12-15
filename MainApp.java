@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class MainApp {
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("Chat bot by Radu (not actually)");
+		System.out.println("Chat bot by Radu");
 		ChatEngine ce = new ChatEngine();
 		BufferedReader readerCmd = new BufferedReader(new InputStreamReader(System.in));
 		String cmd = null;
